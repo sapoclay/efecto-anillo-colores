@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background: radial-gradient(#ACB6E5, #74ebd5);
+    font-family: sans-serif;
+    color: #eeeeee;
+}
+
+canvas#ring_shape-canvas {
+    display: block;
+    z-index: 2;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+    text-align: center;
+    z-index: 2;
+}
+
+.control {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: .9em;
+    opacity: .8;
+}
