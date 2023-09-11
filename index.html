@@ -7,7 +7,7 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
+<!-- esquema dibujo -->
 <div class="page">
     <div class="title">
         <img src="img/sapoclay.png" title="Sap0Clay"/>
@@ -48,7 +48,7 @@
     #define PI 3.14159265358979323846
 
     // ------------------------------------------------
-    // Generic fractional Brownian motion (fBm) noise
+    // Ruido en movimiento genérico fraccionado Brownian (fBm) https://es.wikipedia.org/wiki/Movimiento_browniano
 
     float rand(vec2 n) {
         return fract(cos(dot(n, vec2(12.9898, 4.1414))) * 43758.5453);
